@@ -2,7 +2,7 @@ software required for the operational system.
 
 = OOF,,ε,, requirements =
 
- * *NumPy-SciPy* - fundamental package for scientific computing with Python
+ * *!NumPy-!SciPy* - fundamental package for scientific computing with Python
  * *Matplotlib* - Python 2D plotting library
  * *Basemap* - mapping toolbox for matplotlib
  * *NetCDF interface for Python* - the interfaces pycdf, NetCDF4-Python and ScientificPython are supported. But the best choice is NetCDF4-Python (includes OPeNDAP access, NetCDF version 4, deals with NetCDF dates, etc)
