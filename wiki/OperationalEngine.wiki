@@ -1,0 +1,36 @@
+#OOF,,ε,, description.
+
+= Introduction =
+
+This page describes the components and the python engine and the operational process.
+
+
+= Details =
+
+== operational engine ==
+
+ * Analysis
+
+   runs the ocean model forced with anlysis or real data (surface and boundary forcings)
+
+ * Forecast
+
+   runs the model froced with predictions
+
+
+== operational cycle ==
+
+ # check/wait for the required forcing and initial conditions
+ # creation of model input files
+ # ocean simulation
+ # plot/manage model input/output
+
+The cycle is repeated continuously. Ocean model initial conditions come from the restart file of the previous day analysis simulation
+
+
+== modules ==
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
