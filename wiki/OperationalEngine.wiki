@@ -30,7 +30,16 @@ The cycle is repeated continuously. Ocean model initial conditions come from the
 
 == modules ==
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ * op_main
+   maintenance of the analysis and forecast cycles
+
+ * op_vis
+   visualization of model input/output
+
+ * op_clean
+   delete/compress input/output files
+
+ * op_monitor
+   access the status of the model runs
+
+the modules include text configuration files
